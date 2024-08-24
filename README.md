@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# Spring_Enjoyable_Site
+## 概要
+### 内容 
+旅行で遊べる施設や食事・宿の記述をするサイトにチャレンジ。
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 目的
+サイトの作成による、springのコーディング力をつけることや
 
-## Available Scripts
+現場で使っている技術をキャッチアップすること。
 
-In the project directory, you can run:
+AWSも使用する予定だが、費用と開発初期段階のため未定。
 
-### `npm start`
+## 使用技術(作成中なので予定も含む)
+### バックエンド
+<img src="https://camo.qiitausercontent.com/00f9cc65cdea735164a23edab49f10a1bf9cb56a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176612d3030373339362e7376673f6c6f676f3d6a617661267374796c653d666f722d7468652d6261646765"> <img src="https://camo.qiitausercontent.com/eb8e0216005c7badaaa4bf7eb2be4d177990d747/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d507974686f6e2d4632433633432e7376673f6c6f676f3d707974686f6e267374796c653d666f722d7468652d6261646765">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### フロントエンド
+<img src="https://camo.qiitausercontent.com/a1c82dde1e505a2f11e0575cf726515a7112e072/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d547970655363726970742d3030303030302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d74797065736372697074266c6f676f436f6c6f723d363144414642">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### フレームワーク
+<img src="https://camo.qiitausercontent.com/c4a40a6ab784af30bdd4e6b51956362ad4139d9a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d52656163742d3230323332413f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d363144414642">
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### その他インフラ
+<img src="https://camo.qiitausercontent.com/01ce7f13e49ffb3193222a9a53f69cb78f60561f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d506f737467726573716c2d3333363739312e7376673f6c6f676f3d706f737467726573716c267374796c653d666f722d7468652d6261646765266c6f676f436f6c6f723d7768697465"> <img src="https://camo.qiitausercontent.com/11e97646e81c116c851923e0f45e6a6a8037f64c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d446f636b65722d3134383843362e7376673f6c6f676f3d646f636b6572267374796c653d666f722d7468652d6261646765"> <img src="https://camo.qiitausercontent.com/38f0d65f0b30d5c48c51df90da9235549605af35/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d676974687562616374696f6e732d4646464646462e7376673f6c6f676f3d6769746875622d616374696f6e73267374796c653d666f722d7468652d6261646765">
+<img src="https://camo.qiitausercontent.com/ec57734305b17aa755e88894461c2239ca05e3ea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d7465727261666f726d2d3230323332413f7374796c653d666f722d7468652d6261646765266c6f676f3d7465727261666f726d266c6f676f436f6c6f723d383434454241">
 
-### `npm run build`
+## テスト
+- spock
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## バックエンドブランチ
+[https://github.com/railgun-0402/React_Enjoyble](https://github.com/railgun-0402/Spring_Enjoyable_Site)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## feature
+- 管理画面
+  - 施設の登録・更新・削除
+  - ユーザの登録・更新・削除
+- ユーザ
+  - Top画面
+  - 施設の詳細画面
+  - アンケート
+  - 施設のお気に入り
